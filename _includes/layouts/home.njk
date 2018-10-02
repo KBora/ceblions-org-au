@@ -4,3 +4,8 @@ section: home
 ---
 
 {{ layoutContent | safe }}
+
+
+Blogs inserted
+{% set postslist = collections.posts %}
+{% include "components/postslist.njk" %}
