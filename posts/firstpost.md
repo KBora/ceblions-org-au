@@ -1,27 +1,8 @@
 ---
-title: This is my first post
-summary: Why contemplating our mortality can be a powerful catalyst for change
-date: 2015-01-01
+title: Changeover 2012
+summary: David extended a warm welcome to District Executive Lions Club members; the mayor, Pat Reilly; and Geoff Munday from Streetworks.
+date: 2012-06-19
 tags:
-  - post
-  - tech
-  - environment
-  - politics
-  - sport
+  - news
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-```
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+David extended a warm welcome to District Executive Lions Club members; the mayor, Pat Reilly; and Geoff Munday from Streetworks. The club's major beneficiary was Streetworks and Geoff Munday was there to accept a $5,000 cheque presented by David To with the help of Pat Reilly. Geoff gave a stirring account of work undertaken by Streetworks and explained the success of the program and of how the donation would assist in reaching more adolescents and young adults in need. Pat Reilly spoke of how the Willoughby City Council is planning the upgrade of the Youth Centre and other facilities to aid interaction among the young people in the community.
