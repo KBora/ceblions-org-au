@@ -3,7 +3,7 @@ title: Changeover 2013
 summary: The Changeover Dinner was well attended by members and friends of the Club. The Club was very honoured to have the presence of the Hon. Gladys Berejiklian, Minister for Transport as the keynote speaker and to launch the Club’s new website.
 date: 2013-06-27
 tags:
-  - news  
+  - meeting  
 ---
 The Changeover Dinner was well attended by members and friends of the Club. The Club was very honoured to have the presence of the Hon. Gladys Berejiklian, Minister for Transport as the keynote speaker and to launch the Club’s new website.
 

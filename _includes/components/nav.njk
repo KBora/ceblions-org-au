@@ -1,4 +1,36 @@
 <nav>
+
+  <div class="nav__head">
+    <div class="nav__head__logo">
+        <img src="/static/img/ceblions-logo.png">
+    </div>
+    <div class="nav__head__title">
+        <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+    </div>
+  </div>
+
+<div class="nav__menu">
+                            <div class="nav__menu__toggler d-md-none">
+                                <div class="nav__menu__toggler__icon"></div>
+                                <div class="nav__menu__toggler__text">Menu</div>
+                            </div>
+                            <div class="nav__menu__items d-none d-md-flex">
+
+                       {%- for nav in collections.nav | sort(attribute="date") -%}
+    <div class="nav__menu__items__item"><a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></div>
+  {%- endfor -%}           
+                            </div>
+                            <div class="nav__menu__socials d-none d-md-flex">
+                                <div class="nav__menu__socials__social">
+                                    <svg aria-labelledby="simpleicons-facebook-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title id="simpleicons-facebook-icon">Facebook icon</title>
+                                        <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+
   <ul>
   {%- for nav in collections.nav | sort(attribute="date") -%}
     <li><a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></li>
