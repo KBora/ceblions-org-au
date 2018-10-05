@@ -5,7 +5,10 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "css-build": "node-sass --omit-source-map-url _includes/assets/sass/inline.scss _includes/assets/css/inline.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
@@ -23,9 +26,11 @@
   "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
   "devDependencies": {
     "@11ty/eleventy": "^0.5.0",
+    "bulma": "^0.7.1",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^4.0.0"
+    "markdown-it-anchor": "^4.0.0",
+    "node-sass": "^4.9.3"
   },
   "dependencies": {
     "clean-css": "^4.1.11",
