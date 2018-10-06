@@ -5,7 +5,8 @@
   --blue: blue;
   --riverbed: #484F5D;
   --purple: #813772;
-  --text: #4A4A4A; }
+  --text: #4A4A4A;
+  --grey-bg: #EEEEEE; }
 
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
@@ -6527,7 +6528,7 @@ label.panel-block {
   cursor: pointer;
   background: transparent;
   color: transparent;
-  top: 50%;
+  top: calc(50% - 39px);
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -6635,7 +6636,7 @@ label.panel-block {
       opacity: 0.75; }
 
 nav {
-  background: rgba(155, 155, 155, 0.17); }
+  background: var(--grey-bg); }
 
 .nav__menu {
   background: var(--purple); }
@@ -6704,23 +6705,26 @@ nav {
   height: 1.25rem;
   fill: currentColor; }
 
-.banner-slider img {
-  height: 400px; }
-  @media screen and (max-width: 768px) {
-    .banner-slider img {
-      height: 280px; } }
-
-.banner-slider .banner-slider__caption {
-  position: initial;
-  background: white;
-  text-align: center;
-  color: var(--text);
-  font-size: 0.85rem;
-  font-weight: lighter;
-  margin: 1rem auto 0.75rem; }
-  @media screen and (max-width: 768px) {
-    .banner-slider .banner-slider__caption {
-      max-width: 320px; } }
+.banner-slider {
+  background: var(--grey-bg); }
+  .banner-slider img {
+    height: 400px; }
+    @media screen and (max-width: 768px) {
+      .banner-slider img {
+        height: 280px; } }
+  .banner-slider .banner-slider__caption {
+    position: initial;
+    background: var(--grey-bg);
+    color: var(--text);
+    font-size: 0.85rem;
+    font-weight: lighter;
+    margin: 1rem 0 0.75rem 0; }
+    @media screen and (max-width: 768px) {
+      .banner-slider .banner-slider__caption {
+        background: white;
+        text-align: center;
+        max-width: 320px;
+        margin: 1rem auto 0.75rem; } }
 
 /* Tags */
 a[rel="tag"],

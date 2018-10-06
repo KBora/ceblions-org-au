@@ -8,12 +8,12 @@ window.onload=function(){
 };
 
 $(document).ready(function () {
-  $('.banner-slider').slick({
-    dots: true,
+  $('.banner-slider').slick({    
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     centerMode: true,
-    variableWidth: true
+    variableWidth: true    
   });
 });
