@@ -16,3 +16,4 @@ The founding members of this club consist of David To (Charter President), Cliff
 The Club’s Charter Night was held on 15th October 2011. We would like to extend our thanks and appreciation to the Willoughby Council for facilitating this media conference and providing the Concourse venue for the Charter Night.
 
 ![Inaugural Chart Night group photo](/static/img/hero-group-photo.jpg "Inaugural Chart Night group photo")
+*Charter Night Oct 2011*

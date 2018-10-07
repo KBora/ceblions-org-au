@@ -17,7 +17,7 @@
                 {%- for nav in collections.nav | sort(attribute="date") -%}
                 <div class="nav__menu__items__item">
                 <a href="{{ nav.url | url }}" {% if nav.url==page.url %}
-                        data-current="current item" {% endif %}>{{ nav.data.navtitle }}</a></div>
+                        data-current="current item" class="current-page"{% endif %}>{{ nav.data.navtitle }}</a></div>
                 {%- endfor -%}
 
                 <div class="nav__menu__items__item">

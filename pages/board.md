@@ -17,12 +17,6 @@ Lion Monika Stelzner is a Charter member of the Club. She graduated from Univers
 
 ---
 
-#### 1st Vice President
-## Lion Janice Poon
-Janice Poon is the youngest member on the board of director in the Chatswood Executive Business Lions Club. Janice was born in Hong Kong, but has lived in Sydney since she was two. She can speak fluent English and Cantonese, as well as simple Mandarin. Janice is Dental Surgeon, currently practicing in Chatswood, Mosman and Rose Bay. Outside of Dentistry, Janice’s passions include baking desserts, singing, playing the cello and trying new restaurants with friends.
-
----
-
 ![Samuel Chu](/static/img/board-samuel-chu.jpg "Samuel Chu")
 #### Secretary
 ## Lion Samuel Chu

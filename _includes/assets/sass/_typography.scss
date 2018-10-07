@@ -23,3 +23,9 @@ h4 {
 p {
     margin-bottom: 0.5rem;
 }
+
+a {
+  &.current-page {
+    font-weight: 700;
+  }
+}

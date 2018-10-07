@@ -1280,6 +1280,9 @@ h4 {
 p {
   margin-bottom: 0.5rem; }
 
+a.current-page {
+  font-weight: 700; }
+
 footer {
   background-color: var(--purple);
   color: white; }
