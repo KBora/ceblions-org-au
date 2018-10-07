@@ -16,6 +16,17 @@ permalink: /board/index.html
 Lion Monika Stelzner is a Charter member of the Club. She graduated from University of Technology with a Bachelor degree in Business in 1995. She obtained her MBA in 2004 and CPA qualification in 2006. She is currently the director of Steamline Management specialising BAS returns and installation of accounting software. Her involvement in the community includes – Director of Bendigo Community Bank, Turramurra (2009 to date), Director of Chatswood Chamber of Commerce (2001-2004, 2010-2011), Kirribilli Neighbourhood Centre (2005-2007). |
 
 ---
+![Urs Schaller](/static/img/board-urs-schaller.jpg "Urs Schaller")
+#### Vice President 1
+## Lion Urs Schaller
+Lion Urs Schaller immigrated 1999 from Switzerland to Australia. He is a Swiss Government accredited Fitness Instructor specialised in strength training and has over 30 years experience working in the wellness industry. He owns <a href="http://www.medistrength.com.au" target="_blank">MediStrength</a>, an Exercise Physiology Clinic in Chatswood. He is also head of the <a href="www.swissentrepreneurs.org" target="_blank">Swiss Entrepreneurs in NSW.</a>
+
+
+---
+#### Vice President 2
+## Dave Dai
+
+---
 
 ![Samuel Chu](/static/img/board-samuel-chu.jpg "Samuel Chu")
 #### Secretary
@@ -30,3 +41,45 @@ My Lions involvements in the past are:
 - Lions NSW and ACT Save-sight and Public HealthCare Foundation Director 2006-2012
 - Lions Eye Health Program N District co-ordinator 2009-2010
 - District Governor’s Adviser 2010-2011
+
+
+---
+#### Secretary
+## Lion Samuel Chu
+
+---
+
+#### Treasurer
+## Lion Eric Wong
+
+---
+
+#### Membership Director
+## Lion David To
+
+---
+![Davide Coaro](/static/img/board-davide-coaro.jpg "Davide Coaro")
+#### Director (and official tale-twister)
+## Lion Davide Coaro
+Davide Coaro is the director and CFO of Harry Georje Diamonds. He is originally from Italy, he moved to Sydney in 2006 from London where he worked in business consulting as a Black Belt Lean Six Sigma specialist in the corporate world. He is a passionate investor with a strong interest in disruptive innovation such as biotechnology, AI and everything Blockchain.
+
+---
+
+#### Director
+## Lion Michael Tu
+
+---
+
+#### Director 
+## Lion Michelle Lam
+
+---
+
+#### Director
+## Lion Mark Sing
+
+---
+
+#### Immediate Past President
+## Lion Alex Wood
+

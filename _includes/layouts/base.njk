@@ -12,19 +12,20 @@
 
   <main>
 
-    {% if section=="home" or section=="photos" %}
-    {% include "components/homepage-banner.njk" %}
-    <style>
-    @media screen and (max-width: 768px) {
-      .grid-wrapper {
-        grid-template-areas:     
-          "welcome"        
-          "content"       
-          "advisers";  
+    {% if section=="home"%}
+      {% include "components/homepage-slider.njk" %}
+      <style>
+      @media screen and (max-width: 768px) {
+        .grid-wrapper {
+          grid-template-areas:     
+            "welcome"        
+            "content"       
+            "advisers";  
+        }
       }
-    }
-    </style>
+      </style>    
     {% endif %}
+
     <div class="container">
       <div class="grid-wrapper">
         <div class="welcome">

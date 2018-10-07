@@ -5,5 +5,7 @@ section: home
   {{ layoutContent | safe }}
 
   <h1>Latest News</h1>
-  {% set postslist = collections.posts | limit(4) %}
+  {% set postslist = collections.posts | reverse | limit(4) %}
   {% include "components/postslist.njk" %}
+
+  <a href="/news/">→ More news</a>
