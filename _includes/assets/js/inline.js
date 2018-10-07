@@ -14,6 +14,7 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 1,
     centerMode: true,
-    variableWidth: true    
+    variableWidth: true,
+    adaptiveHeight: true 
   });
 });

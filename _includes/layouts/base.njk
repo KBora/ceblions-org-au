@@ -1,55 +1,76 @@
 <!doctype html>
 
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}" {% endif %} lang="en">
 
-	{% include "components/head.njk" %}
+{% include "components/head.njk" %}
 
-	<body>
-		
-		<header>
-			{% include "components/nav.njk" %}
-		</header>
+<body>
 
-		<main>
+  <header>
+    {% include "components/nav.njk" %}
+  </header>
 
-			{% if section=="home" %}
-				{% include "components/homepage-banner.njk" %}
-			{% endif %}
+  <main>
 
-			
-			<div class="tile tile--cyan">
-                        <h3>Welcome</h2>
-                            Chatswood Executive Business Lions Club (CEBLC) was formed on 25th May 2011 catering to the needs of the Willoughby Municipality.
-                            Current membership stands at 31 individuals from a variety of backgrounds and age groups, bound
-                            by a common goal to help the local community. The main vision of the club in its inaugural year
-                            will be to support local youth projects (such as Streetworks) and conduct bi-monthly meetings
-                            for our members and friends.
-                    </div>
-                    <div class="tile tile--grey tile--names">
-                        <h4>Club Advisers</h4>
-                        <div class="tile--names__name">
-                            <a href="/sponsors/samuel-chu-optometrist.pdf">Chu, Monica Mrs</a>
-                        </div>
-                        <div class="tile--names__name">Wu, Alex Lion</div>
-                        <h4>Corporate Sponsors</h4>
-                        <div class="tile--names__name">Lenland Property Development Pty Ltd</div>
-                        <h4>Club Sponsors</h4>
-                        <div class="tile--names__name">Ching, Terry Lion</div>
-                        <div class="tile--names_name">Galaxy Funeral Consulting</div>
-                        <div class="tile--names_name">K P Caps Shun</div>
-                        <div class="tile--names_name">Fai Modern AV Co.</div>
-                        <div class="tile--names_name">Streamline Management</div>
-                        <div class="tile--names_name">Transways Logistics International</div>
-                        <div class="tile--names_name">UMI</div>
-                    </div>
+    {% if section=="home" %}
+    {% include "components/homepage-banner.njk" %}
+    <style>
+    @media screen and (max-width: 768px) {
+      .grid-wrapper {
+        grid-template-areas:     
+          "welcome"        
+          "content"       
+          "advisers";  
+      }
+    }
+    </style>
+    {% endif %}
+    <div class="container">
+      <div class="grid-wrapper">
+        <div class="welcome">
+          <div class="ceb-tile ceb-tile--cyan">
+            <h3>Welcome</h3>
+            <p>
+              Chatswood Executive Business Lions Club (CEBLC) was formed on 25th May 2011 catering to the needs of the
+              Willoughby
+              Municipality.</p>
+            <p>Current membership stands at 31 individuals from a variety of backgrounds and age groups, bound
+              by a common goal to help the local community. The main vision of the club in its inaugural year
+              will be to support local youth projects (such as Streetworks) and conduct bi-monthly meetings
+              for our members and friends.
+            </p>
+          </div>
+          </div>
+          <div class="advisers">
+            <div class="ceb-tile ceb-tile--grey ceb-tile--names">
+              <h4 class="h4">Club Advisers</h4>
+              <div class="ceb-tile--names__name">
+                <a href="/sponsors/samuel-chu-optometrist.pdf">Chu, Monica Mrs</a>
+              </div>
+              <div class="ceb-tile--names__name">Wu, Alex Lion</div>
+              <h4 class="h4">Corporate Sponsors</h4>
+              <div class="ceb-tile--names__name">Lenland Property Development Pty Ltd</div>
+              <h4 class="h4">Club Sponsors</h4>
+              <div class="ceb-tile--names__name">Ching, Terry Lion</div>
+              <div class="ceb-tile--names__name">Galaxy Funeral Consulting</div>
+              <div class="ceb-tile--names__name">K P Caps Shun</div>
+              <div class="ceb-tile--names__name">Fai Modern AV Co.</div>
+              <div class="ceb-tile--names__name">Streamline Management</div>
+              <div class="ceb-tile--names__name">Transways Logistics International</div>
+              <div class="ceb-tile--names__name">UMI</div>
+            </div>
+        </div>
+        <div class="content">
+          <div class="ceb-tile">
+            {{ layoutContent | safe }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
+  {% include "components/footer.njk" %}
 
-					{{ layoutContent | safe }}
-
-		</main>
-
-		{% include "components/footer.njk" %}		
-
-	</body>
+</body>
 
 </html>

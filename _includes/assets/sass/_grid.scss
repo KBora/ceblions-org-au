@@ -1,0 +1,27 @@
+.content {
+    grid-area: content;
+}
+.welcome {
+    grid-area: welcome;
+}
+.advisers {
+  grid-area: advisers;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "welcome content content content"
+      "advisers content content content";
+
+    @include mobile {  
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:     
+        "content"
+        "welcome"        
+        "advisers";  
+    }
+}
