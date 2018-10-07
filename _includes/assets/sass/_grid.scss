@@ -10,11 +10,11 @@
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: 320px 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
-      "welcome content content content"
-      "advisers content content content";
+      "welcome content"
+      "advisers content";
 
     @include mobile {  
         grid-template-columns: repeat(1, 1fr);

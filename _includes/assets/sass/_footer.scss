@@ -30,7 +30,7 @@ footer {
             .footer__texts__menu-items {
                 display: flex;
                 flex-direction: column;
-                flex: 0 0 25%;
+                flex: 0 0 320px;
                 @include mobile { 
                     flex: 1 1 auto;
                 }

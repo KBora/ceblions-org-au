@@ -18,7 +18,10 @@ $color-purple: #813772;
 $grey-dark: #4A4A4A;
 $family-sans-serif: 'Nunito', 'Helvetica Neue', Arial, sans-serif;
 $link: $color-purple;
-@import "node_modules/bulma/bulma.sass";
+// @import "node_modules/bulma/bulma.sass";
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/elements/container.sass";
 // Bullma has neg margins for columns which causes horziontal scroll
 .columns {
     margin-left: 0;
