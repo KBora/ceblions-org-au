@@ -17,6 +17,16 @@ Lion Urs Schaller immigrated 1999 from Switzerland to Australia. He is a Swiss G
 
 ---
 
+#### First Vice President
+## Lion David Dai
+
+---
+
+#### Second Vice President
+## Lion Alex Wood
+
+---
+
 ![Samuel Chu](/static/img/board-samuel-chu.jpg "Samuel Chu")
 #### Secretary
 ## Lion Samuel Chu
@@ -64,7 +74,6 @@ Davide Coaro is the director and CFO of Harry Georje Diamonds. He is originally 
 
 ---
 
-#### Immediate Past President
 ![Monika Stelzner](/static/img/board-monika-stelzner.jpg "Monika Stelzner")
 #### Immediate Past President
 ## Lion Monika Stelzner
